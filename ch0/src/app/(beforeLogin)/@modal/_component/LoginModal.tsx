@@ -1,6 +1,6 @@
 "use client";
 
-import style from "@/app/(beforeLogin)/@modal/i/flow/login/login.module.css";
+import style from "./login.module.css";
 import { useState } from "react";
 
 // 리액트 18버전에 추가된 서버 컴포넌트때문에 useState를 쓰려면 use client를 붙여야함
