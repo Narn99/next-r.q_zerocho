@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  align-items: stretch;
+  background-color: white;
+  color: black;
+}
+
+.leftSectionWrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.leftSection {
+  width: 275px;
+  height: 100dvh;
+}
+
+.leftSectionFixed {
+  background-color: orange;
+  position: fixed;
+  width: inherit;
+  height: 100dvh;
+}
+
+.logo {
+  display: inline-block;
+  height: 56px;
+  margin-top: 2px;
+}
+
+.logoCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoCircle:hover {
+  background-color: rgb(15, 20, 25, 0.1);
+}
+
+.rightSectionWrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100dvh;
+}
+
+.rightSectionInner {
+  background-color: blue;
+  width: 990px;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.rightSection {
+  background-color: aqua;
+  width: 350px;
+  height: 100%;
+}
+
+.main {
+  width: 600px;
+  background-color: yellow;
+}
+
+.search {
+  position: fixed;
+  width: inherit;
+  height: 42px;
+  background-color: white;
+  border-radius: 21px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.search svg {
+  margin-left: 20px;
+  fill: rgb(83, 100, 113);
+}
+
+.search input {
+  outline: none;
+  background-color: inherit;
+  border: none;
+  padding: 12px;
+  margin-left: 5px;
+  font-size: 15px;
+}
