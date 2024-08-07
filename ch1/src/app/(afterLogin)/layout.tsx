@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import NavMenu from "./_component/NavMenu";
 import { ReactNode } from "react";
 import ZLogo from "../../../public/zlogo.png";
 import styles from "./layout.module.css";
@@ -19,6 +20,11 @@ export default function AfterLoginLayout({
                 <Image src={ZLogo} alt="z-logo" width={40} height={42} />
               </div>
             </Link>
+            <nav>
+              <ul>
+                <NavMenu />
+              </ul>
+            </nav>
           </div>
         </section>
       </header>
