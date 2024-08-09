@@ -127,3 +127,8 @@
   margin-left: 5px;
   font-size: 15px;
 }
+
+.searchWrapper {
+  margin-bottom: 60px;
+  width: inherit;
+}
