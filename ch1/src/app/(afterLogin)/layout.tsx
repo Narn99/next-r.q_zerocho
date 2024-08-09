@@ -3,6 +3,8 @@ import Link from "next/link";
 import LogoutButton from "./_component/LogoutButton";
 import NavMenu from "./_component/NavMenu";
 import { ReactNode } from "react";
+import RecommendFollow from "./_component/RecommendFollow";
+import TrendSection from "./_component/TrendSection";
 import ZLogo from "../../../public/zlogo.png";
 import styles from "./layout.module.css";
 
@@ -45,6 +47,8 @@ export default function AfterLoginLayout({
               </svg>
               <input type="search" />
             </form>
+            <TrendSection />
+            <RecommendFollow />
           </section>
         </div>
       </div>
